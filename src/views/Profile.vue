@@ -6,7 +6,7 @@
     {{member.name}}
     </div> -->
 
-    <div v-for="member in members" :key="member">
+    <div class="inline-block" v-for="member in members" :key="member">
     <profileCard 
     :v-if="member.isMember" 
     :name="member.name"
@@ -48,7 +48,7 @@
                         isMember:true
                     },
                     {
-                        name: "ford",
+                        name: "fodle",
                         age:"22",
                         birthday:"2/1/2575",
                         isMember:true
